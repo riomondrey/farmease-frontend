@@ -1,0 +1,42 @@
+#tasker {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-weight: inherit;
+    font-style: inherit;
+    font-size: 100%;
+    font-family: inherit;
+    vertical-align: baseline;
+  }
+  .value-prop-container {
+    display: flex;
+    align-items: center;
+    border: 2px solid black;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    background-color: rgb(9, 35, 2); /* Set the background color to green */
+    color: rgb(255, 240, 240); /* Set text color to white */
+  }
+  
+  .text-container {
+    flex: 1;
+    padding: 20px;
+  }
+  
+  figure {
+    flex: 1;
+    text-align: right;
+  }
+  
+  /* Style the text inside the container */
+  .text-container h1,
+  .text-container .description,
+  .text-container ul li {
+    color: rgb(202, 215, 201); /* Set text color inside the container to white */
+  }
+  .container{
+    text-align: center;
+    margin-top: 60px;
+    margin-bottom: 60px;
+  }
